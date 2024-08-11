@@ -1,0 +1,18 @@
+http:
+  port: "8000"
+
+db:
+  host: "localhost"
+  port: "5432"
+  username: "postgres"
+  dbname: "backDevDB"
+  sslmode: "disable"
+
+auth:
+  accessTokenTLL: 10m
+  refreshTokenTLL: 730h
+
+smtp:
+  from: "no-reply@backdev.me"
+  host: "mail.some_host.com"
+  port: 587
